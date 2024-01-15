@@ -28,3 +28,26 @@ section#telefone {
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+iframe {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    height: 468px;
+    width: 265px;
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.801);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 3px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 7px 7px 15px black;
+    transition: transform .4s, border 1s;
+}
